@@ -41,7 +41,7 @@ Backend Developer Intern Assessment
 1. **Start the server:**
 
    ```bash
-   npm start
+   node index.js
    ```
 
 2. **Access the API:**
