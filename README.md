@@ -1,8 +1,4 @@
-Creating an excellent README file is crucial for documenting your project and helping others understand how to use it. Below is a template for an excellent README file that covers the setup, features, usage, and other important information for the project we've created:
-
----
-
-# Project Title
+# Pioneer Project
 
 Brief description of the project.
 
