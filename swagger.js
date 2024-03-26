@@ -11,7 +11,7 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:3000",
+        url: "https://tiny-erin-lemur-boot.cyclic.app/",
         description: "Development server",
       },
     ],
