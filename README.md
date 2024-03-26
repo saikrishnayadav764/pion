@@ -1,6 +1,6 @@
 # Pioneer Project
 
-Brief description of the project.
+Backend Developer Intern Assessment
 
 ## Table of Contents
 
@@ -8,7 +8,7 @@ Brief description of the project.
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
+- [Deployed URL](#Deployed_URL)
 - [License](#license)
 
 ## Installation
@@ -22,7 +22,7 @@ Brief description of the project.
 2. **Install dependencies:**
 
    ```bash
-   cd project-name
+   cd pioneer
    npm install
    ```
 
@@ -31,11 +31,10 @@ Brief description of the project.
    Create a `.env` file in the root directory and add the following environment variables:
 
    ```plaintext
-   MONGODB_URI=your_mongodb_uri
-   PORT=3000
+   MONGODB_URI=mongodb+srv://naruto:naruto@cluster0.be644zi.mongodb.net/db
+   SECRET_KEY=secret_key
    ```
 
-   Replace `your_mongodb_uri` with the connection URI for your MongoDB database.
 
 ## Usage
 
@@ -58,7 +57,7 @@ Brief description of the project.
 The API documentation is generated using Swagger. Access the interactive Swagger UI at:
 
 ```
-http://localhost:3000/api-docs
+https://jade-mushy-cockroach.cyclic.app/api-docs
 ```
 
 This provides detailed documentation for all the API endpoints, including request parameters and responses.
@@ -73,14 +72,5 @@ This provides detailed documentation for all the API endpoints, including reques
 - dotenv
 - cors
 
-## Contributing
-
-Contributions are welcome! Please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Replace placeholders such as `project-name`, `yourusername`, `your_mongodb_uri`, and update sections as needed to accurately reflect your project. Additionally, include any additional sections or information that may be relevant to your project.
+## Deployed_URL
+- https://jade-mushy-cockroach.cyclic.app/
