@@ -11,7 +11,7 @@ const options = {
     },
     servers: [
       {
-        url: "https://tiny-erin-lemur-boot.cyclic.app/",
+        url: "https://jade-mushy-cockroach.cyclic.app/",
         description: "Development server",
       },
     ],
