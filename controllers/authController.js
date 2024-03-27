@@ -14,6 +14,9 @@ exports.register = async (req, res) => {
 exports.login = async (req, res) => {
   try {
     const token = await authService.login(req.body);
+    // Seting the token in client-side cookies or local storage
+    res.cookie('token', token, { httpOnly: true }); // For setting cookie
+    // res.setHeader('Authorization', `Bearer ${token}`); // For setting in header
     res.json({ token });
   } catch (error) {
     res.status(401).json({ message: error.message });
@@ -21,5 +24,7 @@ exports.login = async (req, res) => {
 };
 
 exports.logout = (req, res) => {
+  // Removing the token from client-side
+  res.clearCookie('token'); // For clearing cookie
   res.json({ message: "Logged out successfully" });
 };
