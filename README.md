@@ -73,4 +73,4 @@ This provides detailed documentation for all the API endpoints, including reques
 - cors
 
 ## Deployed_URL
-- https://jade-mushy-cockroach.cyclic.app/
+- https://jade-mushy-cockroach.cyclic.app/api-docs
