@@ -2,7 +2,7 @@
  * @swagger
  * /account/balance:
  *   get:
- *     summary: Geting Ethereum account balance
+ *     summary: Geting the Ethereum account balance
  *     description: Retrieving the balance of a specified Ethereum account
  *     parameters:
  *       - in: query
