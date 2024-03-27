@@ -2,8 +2,8 @@
  * @swagger
  * /auth/register:
  *   post:
- *     summary: Register a new user
- *     description: Register a new user with username and password
+ *     summary: Registering a new user
+ *     description: Registering a new user with username and password
  *     requestBody:
  *       required: true
  *       content:
