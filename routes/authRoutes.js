@@ -59,8 +59,6 @@
  *   post:
  *     summary: Loging out a user
  *     description: Loging out a user by invalidating the token
- *     security:
- *       - bearerAuth: []
  *     responses:
  *       200:
  *         description: User logged out successfully
