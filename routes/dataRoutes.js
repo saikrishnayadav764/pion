@@ -2,8 +2,8 @@
  * @swagger
  * /api/publicapi:
  *   get:
- *     summary: Geting the data from the public API
- *     description: Geting the data from a public API with optional filtering by category and limit
+ *     summary: Getting the data from the public API
+ *     description: Getting the data from a public API with optional filtering by category and limit
  *     parameters:
  *       - in: query
  *         name: limit
