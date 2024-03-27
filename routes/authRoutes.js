@@ -53,6 +53,19 @@
  *         description: Invalid username or password
  */
 
+ * /auth/logout:
+ *   post:
+ *     summary: Log out a user
+ *     description: Log out a user by invalidating the token
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: User logged out successfully
+ *       401:
+ *         description: Unauthorized, token is missing or invalid
+ */
+   
 const express = require("express");
 const router = express.Router();
 const authController = require("../controllers/authController");
