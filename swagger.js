@@ -12,7 +12,7 @@ const options = {
     servers: [
       {
         url: "https://jade-mushy-cockroach.cyclic.app/",
-        description: "Development server",
+        description: "Live server",
       },
     ],
     components: {
