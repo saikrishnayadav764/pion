@@ -53,6 +53,8 @@
  *         description: Invalid username or password
  */
 
+/**
+ * @swagger
  * /auth/logout:
  *   post:
  *     summary: Log out a user
