@@ -9,7 +9,7 @@ Backend Developer Intern Assessment
 - [API Documentation](#api-documentation)
 - [Dependencies](#dependencies)
 - [Deployed URL](#Deployed_URL)
-- [License](#license)
+- [Testing](#Testing)
 
 ## Installation
 
@@ -74,3 +74,6 @@ This provides detailed documentation for all the API endpoints, including reques
 
 ## Deployed_URL
 - https://jade-mushy-cockroach.cyclic.app/api-docs
+
+## Testing
+- You can test all the apis here itself https://jade-mushy-cockroach.cyclic.app/api-docs
