@@ -16,7 +16,7 @@ exports.login = async (req, res) => {
     const token = await authService.login(req.body);
     // Seting the token in client-side cookies or local storage
     res.cookie('token', token, { httpOnly: true }); // For setting cookie
-    // res.setHeader('Authorization', `Bearer ${token}`); // For setting in header
+    // res.setHeader('Authorization', `${token}`); // For setting in header
     res.json({ token });
   } catch (error) {
     res.status(401).json({ message: error.message });
