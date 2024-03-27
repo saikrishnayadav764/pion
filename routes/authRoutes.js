@@ -26,8 +26,8 @@
  * @swagger
  * /auth/login:
  *   post:
- *     summary: Log in a user
- *     description: Log in a user with username and password
+ *     summary: Loging in a user
+ *     description: Loging in a user with username and password
  *     requestBody:
  *       required: true
  *       content:
@@ -57,8 +57,8 @@
  * @swagger
  * /auth/logout:
  *   post:
- *     summary: Log out a user
- *     description: Log out a user by invalidating the token
+ *     summary: Loging out a user
+ *     description: Loging out a user by invalidating the token
  *     security:
  *       - bearerAuth: []
  *     responses:
