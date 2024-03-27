@@ -24,6 +24,10 @@ exports.login = async (req, res) => {
 };
 
 exports.logout = (req, res) => {
+  / Checking if the token exists in the request headers
+    if (!req.headers.authorization) {
+      return res.status(401).json({ message: "You are not logged in" });
+    }
   // Removing the token from client-side
   res.clearCookie('token'); // For clearing cookie
   res.json({ message: "Logged out successfully" });
